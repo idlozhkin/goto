@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("a");
+    if(booleanTest) goto label;
+    printf("b");
+    label:
+    
+    return 0;
+}

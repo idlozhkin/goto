@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    boolean goto_label;
+    printf("a");
+    for(int i=0; i < 8; i++):
+    {
+        goto_label=(cond);
+        if(goto_label) break;
+        print("b");
+    }
+    if(goto_label) goto label;
+    label: goto_label=0;
+    printf("c");
+    
+    return 0;
+}

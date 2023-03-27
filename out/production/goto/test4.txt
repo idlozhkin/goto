@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("a");
+    for(int i=0; i < 8; i++):
+    {
+        if(cond) goto label;
+        print("b");
+    }
+    label:
+    printf("c");
+    
+    return 0;
+}

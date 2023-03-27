@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("a");
+    switch(i):
+    {
+        case 1:
+        print("b");
+        if(cond) goto label;
+        default:
+        print("c");
+    }
+    label:
+    printf("d");
+    
+    return 0;
+}

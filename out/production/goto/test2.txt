@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    label:
+    printf("a");
+    goto label;
+    printf("b");
+    
+    return 0;
+}

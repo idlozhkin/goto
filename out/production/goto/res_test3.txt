@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    boolean goto_label;
+    printf("a");
+    switch(i):
+    {
+        case 1:
+        print("b");
+        goto_label=(cond);
+        if(goto_label) break;
+        default:
+        print("c");
+    }
+    if(goto_label) goto label;
+    label: goto_label=0;
+    printf("d");
+    
+    return 0;
+}
